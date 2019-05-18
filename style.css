@@ -1,0 +1,48 @@
+*{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+p{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+}
+#numbers{
+    width: 80%; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center
+}
+.number{
+    padding:1% 2%;
+    margin: 1%;
+    min-width: 10px;
+    min-height: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center
+}
+.current{
+    background: rgb(59, 57, 57);
+    color: rgb(255, 255, 255);
+}
+button{
+    background: rgb(59, 57, 57);
+    color: rgb(255, 255, 255);
+
+
+}
